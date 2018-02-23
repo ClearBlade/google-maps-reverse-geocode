@@ -1,0 +1,10 @@
+{
+    "current_version": 46,
+    "dependencies": "http,ReverseGeocoding",
+    "logging_enabled": "false",
+    "name": "Example",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Example.js"
+}
