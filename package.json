@@ -1,4 +1,7 @@
 {
+    "asset_types":[
+        "Code Libraries"
+    ],
     "author": {
         "email": "rreinold@clearblade.com"
     },
