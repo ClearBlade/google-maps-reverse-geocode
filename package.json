@@ -1,0 +1,44 @@
+{
+    "author": {
+        "email": "rreinold@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Reverse geocoding of coordinates to addresses",
+    "domains": [
+        "asset management",
+        "asset tracking"
+    ],
+    "gateways": [],
+    "image_url": "http://softdroid.net/sites/default/files/styles/teaser/public/mapsnav_03.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "geocoding",
+        "geospatial",
+        "google",
+        "maps",
+        "google maps",
+        "geo",
+        "encoding",
+        "lat",
+        "long",
+        "coordinates",
+        "conversion",
+        "location",
+        "tracking",
+        "address",
+        "earth"
+    ],
+    "license": "MIT",
+    "name": "google-maps-reverse-geocode",
+    "private": false,
+    "prog_lang": [
+        "javascript"
+    ],
+    "protocols": [
+        "REST"
+    ],
+    "things": [],
+    "version": "1.0.0"
+}
