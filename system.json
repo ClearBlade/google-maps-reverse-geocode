@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "Reverse geocoding of coordinates to addresses",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "google-maps-reverse-geocode",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "d48ef7a80be6e6cd96b282d8e9de01",
+    "system_secret": "D48EF7A80BBAFC99F5F1FF84E38901"
+}
