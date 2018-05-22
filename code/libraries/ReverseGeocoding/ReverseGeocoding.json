@@ -3,6 +3,6 @@
     "dependencies": "http",
     "description": "Reverse geocoding from lat/long coordinates to addresses.",
     "name": "ReverseGeocoding",
-    "version": 33,
+    "version": 39,
     "visibility": "system"
 }

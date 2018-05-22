@@ -2,9 +2,9 @@
     "current_version": 46,
     "dependencies": "http,ReverseGeocoding",
     "logging_enabled": "false",
-    "name": "Example",
+    "name": "RevGeoExample",
     "params": [],
     "permissions": {},
     "run_user": "",
-    "source": "Example.js"
+    "source": "RevGeoExample.js"
 }
