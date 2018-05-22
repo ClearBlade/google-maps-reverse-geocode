@@ -1,20 +1,31 @@
 /**
  * Reverse Geocoding object requires an API Key
- * 
- * @param {string} key - API Key for Google Geocoding Service, https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple
+ * @typedef {Object} ReverseGeocoding
+ * @param {string} key - API Key for Google Geocoding Service, https://developers.google.com/maps/documentation/javascript/get-api-key
  */
 function ReverseGeocoding(key){
     
     /**
-     * process lat long, returns array of addresses
-     * 
+     * This method processes lat, long and returns array of addresses. Detailed information can be found at 
+     * https://developers.google.com/maps/documentation/javascript/RevGeoExamples/geocoding-reverse
+     * @typedef {Object} execute
      * @memberof ReverseGeocoding
      * @param {number} lat - Latitude of point of interest, ex. 30.2672
      * @param {number} long - Longitude of point of interest, ex -97.7431
-     * @param {callback} callback - callback with function signature: (err, data)
+     * @param {callback} callback - signature `function(err, data){}`
+     * @returns {Object} response, as specified in Google Maps api, example response shown
      * 
-     * @example response
-     * {
+     * @example
+     * var rg = ReverseGeocoding(key);
+     * rg.execute(lat, long, function(err, data){
+     *      if(err){
+     *          resp.error(data);
+     *      }
+     *      resp.success(data.formatted_address);
+     * });
+     * 
+     * // Example response
+     *  {
      *   "address_components": [
      *     {
      *       "long_name": "501",
@@ -110,7 +121,8 @@ function ReverseGeocoding(key){
      *   "types": [
      *     "street_address"
      *   ]
-     * }
+     * }  
+     * 
      */
     function execute(lat, long, callback){
         
@@ -145,6 +157,13 @@ function ReverseGeocoding(key){
     return {
         execute
     }
-    
+
 }
+
+/**
+ * This callback is displayed as part of ReverseGeocoding.
+ * @callback callback
+ * @param {Object} err
+ * @param {Object} resp
+ */
 

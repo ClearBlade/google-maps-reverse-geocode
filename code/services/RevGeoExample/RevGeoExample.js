@@ -1,10 +1,10 @@
 /**
  * Given lat long coordinates, find the street address.
  */
-function Example(req, resp){
+function RevGeoExample(req, resp){
     
     // TODO Enter API Key, can be acquired here:
-    // https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple
+    // https://developers.google.com/maps/documentation/javascript/RevGeoExamples/geocoding-simple
     API_KEY = ""
     var lat = 30.2672;
     var long = -97.7431;
